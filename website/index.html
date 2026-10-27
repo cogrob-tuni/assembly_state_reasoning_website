@@ -27,32 +27,32 @@
     <section class="hero">
       <div class="container hero-inner">
         <p class="kicker">CogRob research project</p>
-        <h1>Project title goes here</h1>
-        <p class="authors">Author One &nbsp;·&nbsp; Author Two</p>
+        <h1>Robust Assembly State Reasoning from Action Recognition for Human-Robot Collaboration</h1>
+        <p class="authors"><a href="https://scholar.google.com/citations?user=vg8dHPYAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">James Fant-Male</a> &nbsp;·&nbsp; <a href="https://scholar.google.com/citations?user=YYKF6BYAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer">Roel Pieters</a></p>
         <p class="affiliation">Cognitive Robotics Group · Tampere University, Finland</p>
-        <p class="venue-note">Publication, workshop, or project context goes here.</p>
+        <p class="venue-note">Accepted to <strong>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN) 2026</strong>
+in Kitakyushu, Fukuoka, Japan.</p>
         <div class="paper-links"><a class="button primary" href="#about">Explore the project</a><a class="button" href="#paper">Read the paper</a></div>
       </div>
     </section>
-    <section class="feature"><div class="container"><figure class="hero-video"><div class="fake-image" role="img" aria-label="Placeholder project visualization"></div><figcaption>Replace this placeholder with a project image, animation, or demonstration.</figcaption></figure></div></section>
+    <section class="feature"><div class="container"><figure class="hero-video"><img class="process-image" src="media/process_fig.png" alt="Overview of the assembly state reasoning process"><figcaption>Assembly state reasoning process.</figcaption></figure></div></section>
     <section class="section intro" id="about">
       <div class="container narrow">
         <p class="kicker">Abstract</p>
-        <p class="abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at magna vel lacus consequat suscipit. Curabitur vitae sem sed arcu facilisis tincidunt, while the project investigates reliable and understandable robotic systems for real-world collaboration.</p>
-        <p class="abstract">Praesent commodo, nisl at consequat tincidunt, justo arcu vulputate lorem, vitae posuere neque erat in justo. Donec dignissim, sapien at feugiat posuere, mi lorem consequat lectus, sed luctus nunc erat non justo.</p>
+        <p class="abstract">Human Action Recognition (HAR) is frequently investigated in Human-Robot Collaboration (HRC) research to understand what actions have been performed and hence the state of a collaborative task. Accurately tracking an assembly state from HAR is however not fully investigated, and in realistic scenarios is not a trivial task. This research systematically investigates and compares methods for tracking assembly state using action recognition inputs. Investigations using two diverse datasets and five state tracking approaches, including logic-based, Hidden Markov Model (HMM), and neural network (NN) methods, show that optimal approaches are not uniform across different tasks and that different methods fail under different circumstances. Testing is performed using both simulated inputs with varying noise levels and realistic inputs from a HAR model. Results show NN and HMM methods can perform well in tasks with limited variability, but for other scenarios logic-based approaches can be more robust. Methods which model expected action duration are also important for tasks with repeated actions where no additional sensing is provided.</p>
       </div>
     </section>
     <section id="method" class="section method">
       <div class="container">
         <div class="section-heading">
           <p class="kicker">Method</p>
-          <h2>Describe the approach.</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti, and explain how the system connects its inputs, models, and robot actions.</p>
+          <h2>How can assembly state be tracked from imperfect action recognition.</h2>
+          <p>Human action recognition provides imperfect tracking of actions an operator has performed. For accurate decision making in HRC, robust reasoning as to the assembly stages completed is required. Five different methods are investigated for tracking assembly state from action recognition predictions.</p>
         </div>
         <div class="contributions">
-          <article><b>01</b><h3>First contribution</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis, arcu at tincidunt aliquet, justo lorem commodo.</p></article>
-          <article><b>02</b><h3>Second contribution</h3><p>Praesent vitae sem sed arcu facilisis tincidunt. Mauris posuere, nisl at consequat tincidunt, justo arcu vulputate.</p></article>
-          <article><b>03</b><h3>Third contribution</h3><p>Donec dignissim sapien at feugiat posuere. Sed luctus nunc erat, non feugiat mi bibendum at.</p></article>
+          <article><b>01</b><h3>First contribution</h3><p>Five different tracking methods investigated across two assembly datasets.</p></article>
+          <article><b>02</b><h3>Second contribution</h3><p>Analysis using simulated HAR inputs with varying noise levels.</p></article>
+          <article><b>03</b><h3>Third contribution</h3><p>Further validation using realistic HAR from skeleton based tracking models.</p></article>
         </div>
       </div>
     </section>
@@ -61,13 +61,13 @@
         <div class="section-heading">
           <p class="kicker">Results</p>
           <h2>Summarize the evaluation.</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Present the main findings, benchmark, or demonstration outcomes here.</p>
+          <p> Optimal methods depend heavilt on the task characteristics being investigated. Logic based approaches can be robust for simple tasks but can be complex to develop. HMM are highly robust but fail for repeated actions of the same type. Deep learning methods require significant training data for reliable results.</p>
         </div>
-        <div class="result-summary">
+        <!-- <div class="result-summary">
           <div><strong>00</strong><span>metric or result</span></div>
           <div><strong>00%</strong><span>success rate</span></div>
           <div><strong>00 s</strong><span>measured latency</span></div>
-        </div>
+        </div> -->
       </div>
     </section>
     <section id="paper" class="section paper">
@@ -76,23 +76,25 @@
           <p class="kicker">Publication</p>
           <h2>Publication details.</h2>
           <p class="paper-meta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Add the venue, publication status, DOI, and links to the paper or preprint here.</p>
-          <p class="paper-meta">DOI: <a href="#">Add DOI or publication link</a></p>
-          <div class="paper-links"><a class="button primary" href="#">Read the paper</a><a class="button" href="#">Preprint</a></div>
+          <p class="paper-meta">DOI: <a href="https://doi.org/10.1109/RO-MAN72286.2026.11715009">https://doi.org/10.1109/RO-MAN72286.2026.11715009</a></p>
+          <div class="paper-links"><a class="button primary" href="https://ieeexplore.ieee.org/document/11715009">Read the paper</a><a class="button" href="https://arxiv.org/pdf/2606.20150">Preprint</a></div>
         </div>
-        <div class="citation"><div class="citation-head"><span>BibTeX</span><button id="copy" type="button">Copy citation</button></div><pre id="citation">@inproceedings{project2026,
-  author    = {Author One and Author Two},
-  title     = {Project title goes here},
-  booktitle = {Conference or journal},
-  year      = {2026}
+        <div class="citation"><div class="citation-head"><span>BibTeX</span><button id="copy" type="button">Copy citation</button></div><pre id="citation">@inproceedings{fantmale2026robust,
+  author    = {James Fant-Male and Roel Pieters},
+  title     = {Robust Assembly State Reasoning from Action Recognition for Human-Robot Collaboration},
+  booktitle = {IEEE International Conference on Robot and Human Interactive Communication (RO-MAN) 2026},
+  pages     = {732-739},
+  year      = {2026},
+  doi       = {10.1109/RO-MAN72286.2026.11715009},
 }</pre><p id="copy-status" class="copy-status" aria-live="polite"></p></div>
       </div>
     </section>
-    <section class="section resources">
+    <!-- <section class="section resources">
       <div class="container resources-inner">
         <div><p class="kicker">Resources</p><h2>Explore the project.</h2></div>
         <div class="resource-list"><a href="#">Source code <span>↗</span></a><a href="#">Setup guide <span>↗</span></a><a href="#">Documentation <span>↗</span></a><a href="#">Experiment data <span>↗</span></a></div>
       </div>
-    </section>
+    </section> -->
   </main>
   <footer><div class="container"><a class="footer-brand" href="https://cogrob-tuni.github.io/"><img src="media/tau-logo.png" alt="" aria-hidden="true"><span>Cognitive Robotics Group<br><small>Tampere University</small></span></a><div class="footer-links"><a href="https://www.tuni.fi/en/tau/research/cognitive-robotics-group">Tampere University ↗</a><a href="https://research.tuni.fi/cogrob/">Research site ↗</a></div></div></footer>
   <script src="script.js"></script>

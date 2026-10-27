@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "published": false,
-  "title": "Project title",
-  "description": "A short description for the lab project index.",
+  "published": true,
+  "title": "Robust Assembly State Reasoning from Action Recognition for Human-Robot Collaboration",
+  "description": "Investigation into different methods to track assembly state based on action recognition predictions.",
   "authors": [
-    "Author One"
+    "James Fant-Male",
+    "Roel Pieters"
   ],
   "year": 2026,
-  "url": "https://cogrob-tuni.github.io/your-repository/",
+  //"url": "https://cogrob-tuni.github.io/your-repository/",
   "order": 100
 }
