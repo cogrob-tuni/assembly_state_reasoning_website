@@ -8,6 +8,8 @@
     "Roel Pieters"
   ],
   "year": 2026,
-  "url": "https://cogrob-tuni.github.io/robust-assembly-reasoning/",
+  "url": "https://cogrob-tuni.github.io/assembly_state_reasoning_website/",
+  // "repository": "https://github.com/cogrob-tuni/your-repository/",
+  "image": "media/process_fig.png",
   "order": 100
 }
